@@ -62,11 +62,16 @@ export default function Timer() {
       <img src="/assets/icondraft.png" alt="liffy icon" className="icon"></img>
       <p className="timer">{formatTime(timeLeft)}</p>
       <div className="button-wrapper-bottom">
-        <button onClick={stopTimer} className="icon-button-wrapper"><img src="/assets/greenpausebutton.svg" alt="pause button" className="icon-button"/></button>
-        <button onClick={startTimer} className="icon-button-wrapper"><img src="/assets/greenplaybutton.svg" alt="play button" className="icon-button"/></button>
+        <button onClick={stopTimer} className="icon-button-wrapper">
+            <img src="/assets/greenpausebutton.svg"  alt="pause button" className="pause-button"/>
+        </button>
+        <button onClick={startTimer} className="icon-button-wrapper">
+            <img src="/assets/greenplaybutton.svg" alt="play button" className="play-button"/>
+            </button>
       </div>
     </div>
     </>
-    
+    //onMouseOver={this.src='/assets/linepausebutton'}
+    //<img src='LibraryTransparent.png' onmouseover="this.src='LibraryHoverTrans.png';" onmouseout="this.src='LibraryTransparent.png';" />
   );
 }
