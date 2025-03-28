@@ -34,7 +34,7 @@
     color: var(--green);
 }
 
-button{
+.button-wrapper-top button{
     background-color: var(--green);
     color: white;
     border: 5px solid var(--green);
@@ -45,7 +45,7 @@ button{
     font-size: 5vh;
 }
 
-button:hover{
+.button-wrapper-top button:hover{
     background-color: white;
     color: var(--green);
     border: 5px solid var(--green);

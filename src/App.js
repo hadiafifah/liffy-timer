@@ -1,5 +1,6 @@
 import './App.css';
 import Timer from './_components/Timer/timer'
+import ToDo from './_components/ToDo/todo'
 
 function App() {
   return (
@@ -24,7 +25,9 @@ function App() {
         <Timer/>
         </div> {/*div holding timer, white bg, box shadow*/}
         <div className="sideFeaturesContainer"> {/*another flexbox with two vertical boxes, on for */}
-          <div className="toDo Card"></div>
+          <div className="toDo Card">
+            <ToDo/>
+          </div>
           <div className="progress Card"></div>
         </div>
       </div>
